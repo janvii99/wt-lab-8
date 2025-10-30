@@ -1,0 +1,127 @@
+
+body {
+    font-family: "Poppins", "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    scroll-behavior: smooth;
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f8f9fa !important;
+    font-weight: 500;
+    margin: 0 6px;
+    transition: color 0.2s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffe082 !important;
+  }
+  
+  section h2 {
+    color: #0d47a1;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+  
+  section p,
+  section li {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  #vision,
+  #mission,
+  #psos {
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .list-group-item {
+    border: none;
+    background-color: transparent;
+    font-size: 1.05rem;
+  }
+  
+  #courses .border {
+    border: 2px solid #0d6efd !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #courses .border:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(13, 110, 253, 0.2);
+  }
+  
+  #gallery img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #gallery img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1);
+  }
+  
+  #recruiters .border {
+    border: 2px solid #1565c0 !important;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #0d47a1;
+    transition: all 0.3s ease;
+  }
+  
+  #recruiters .border:hover {
+    background-color: #0d47a1;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(13, 71, 161, 0.3);
+  }
+  
+  footer {
+    background-color: #0d47a1 !important;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+  
+    section h2 {
+      font-size: 1.4rem;
+    }
+  
+    #courses .border,
+    #recruiters .border {
+      font-size: 0.95rem;
+    }
+  
+    .carousel-inner img {
+      height: 250px;
+    }
+  }
+  
